@@ -1,0 +1,23 @@
+set up the .env file to run with your system with the database connection you use
+
+then run composer install
+then run npm install for the styling and use tailwind
+
+then run php artisan key:generate to generate the APP_KEY encryption key
+
+if all is ok
+create database with the name 'blog' , run php artisan migrate --seed to seed the admin info to login with
+
+when migration is ok , use your localhost url 'http://your_localhost_url/admin' to access the admin panel
+
+you can use this info to login
+email: admin@gmail.com
+password: 123123123
+
+///////////////////////////////////////////////////////
+
+main packages
+1-filament  for the admin panel
+2-tailwind for styling
+3-sanctum fot Api auth
+4-Spatie for media upload
